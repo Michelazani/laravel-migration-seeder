@@ -12,7 +12,6 @@
         <p class="card-text"><span class="fw-bold">Departure Time: </span>{{ $train->departure_time }}</p>
         <p class="card-text"><span class="fw-bold">Arrival Time: </span>{{ $train->arrival_time }}</p>
         <p class="card-text"><span class="fw-bold">Train Company: </span>{{ $train->company }}</p>
-        <p class="card-text"><span class="fw-bold">Train Company: </span>{{ $train->company }}</p>
     </article>
     @endforeach
 </main>
